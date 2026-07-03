@@ -30,7 +30,7 @@ http://127.0.0.1:27182/mcp
 Register this repository as a Codex marketplace:
 
 ```bash
-codex plugin marketplace add owner/fusion-electronics
+codex plugin marketplace add mdlockyer/fusion-electronics
 ```
 
 Install the plugin:
@@ -42,7 +42,7 @@ codex plugin add fusion-electronics@fusion-electronics
 For a specific branch or tag:
 
 ```bash
-codex plugin marketplace add owner/fusion-electronics --ref main
+codex plugin marketplace add mdlockyer/fusion-electronics --ref main
 ```
 
 For local development, register the checkout path instead:
