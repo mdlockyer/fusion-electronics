@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "fusion_el": {
+      "command": "node",
+      "args": [
+        "./mcp/fusion-electronics-server.mjs"
+      ],
+      "cwd": ".",
+      "tool_timeout_sec": 120,
+      "env": {
+        "PORT": "27182"
+      }
+    }
+  }
+}

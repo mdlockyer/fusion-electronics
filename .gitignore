@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build and package outputs
+dist/
+build/
+out/
+coverage/
+*.tgz
+*.zip
+
+# Logs and diagnostics
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# OS and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Tool caches and temporary artifacts
+.cache/
+.tmp/
+tmp/
+temp/
+*.tmp
+
+# Fusion/EAGLE temporary exports
+*.sch.bak
+*.brd.bak
+*.lbr.bak
+*.f3d
+*.f3z

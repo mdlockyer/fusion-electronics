@@ -1,0 +1,11 @@
+{
+  "name": "fusion-electronics",
+  "version": "1.0.3",
+  "description": "Codex plugin MCP server that forwards Autodesk Fusion MCP tools and adds Fusion Electronics automation tools.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "check": "node --check mcp/fusion-electronics-server.mjs",
+    "start": "node mcp/fusion-electronics-server.mjs"
+  }
+}

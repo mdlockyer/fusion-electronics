@@ -1,0 +1,29 @@
+{
+  "name": "fusion-electronics",
+  "version": "1.0.3",
+  "description": "Codex plugin for Autodesk Fusion Electronics automation through Fusion's local MCP server.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "check": "npm --prefix plugins/fusion-electronics run check",
+    "start": "npm --prefix plugins/fusion-electronics run start"
+  },
+  "workspaces": [
+    "plugins/fusion-electronics"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "codex",
+    "mcp",
+    "fusion",
+    "fusion-360",
+    "autodesk",
+    "electronics",
+    "pcb",
+    "schematic",
+    "eagle"
+  ]
+}

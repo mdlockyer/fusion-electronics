@@ -1,0 +1,37 @@
+{
+  "name": "fusion-electronics",
+  "version": "1.0.3",
+  "description": "Adds Fusion Electronics command and EAGLE export automation tools to Codex through Fusion's local MCP server.",
+  "author": {
+    "name": "Michael Lockyer"
+  },
+  "license": "MIT",
+  "keywords": [
+    "fusion",
+    "fusion-360",
+    "autodesk",
+    "electronics",
+    "pcb",
+    "schematic",
+    "eagle",
+    "mcp"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Fusion Electronics",
+    "shortDescription": "Operate Fusion Electronics from Codex",
+    "longDescription": "Connects Codex to Autodesk Fusion's local MCP server and adds Electronics-specific command discovery, command execution, raw text-command execution, EAGLE export, and advanced Python hooks while forwarding Autodesk's original Fusion tools.",
+    "developerName": "Michael Lockyer",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Use Fusion Electronics to list available Electronics commands in the active Fusion document.",
+      "Use Fusion Electronics to export the active schematic or PCB as EAGLE files, then inspect the result.",
+      "Use Fusion Electronics to start a safe Electronics command and verify the active design state."
+    ],
+    "brandColor": "#10A37F"
+  }
+}
